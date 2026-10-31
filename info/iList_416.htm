@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
-        <title>校内通知</title>
+        <title>团、队动态</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta charset="UTF-8" />
@@ -29,39 +29,17 @@
   <link rel="stylesheet" href="../static/css/index.css" />
 
   <script src="../wcm.files/js/jqueryN.js"></script>
-  <script src="../static/common/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="../wcm.files/common/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
   <script src="../static/common/swiper/swiper.min.js"></script>
   <script src="../static/common/js/jquery.SuperSlide.2.1.3.js"></script>
 
-  <script src="https://qbxd.19870310.xyz/static/js/index.js"></script>
+  <script src="../static/js/index.js"></script>
 
 <!-- ---- 2022>>--【common】 -- 标签结束 ---- -->
-<script src="../wcm.files/js/jsonrpc.js"></script>
-<script src="../wcm.files/js/member/memberChecked.js"></script>
 
   </head>
 
   <body id="lby">
-    <style>
-  .login {
-    background: #818181;
-    color: #fff;
-    text-align: right;
-    line-height: 30px;
-    font-size: 14px;
-  }
-
-  .login a {
-    color: #fff;
-  }
-</style>
-<div class="login">
-  <div class="container">
-    <span class="pull-left">欢迎<span id="me_nickname"></span></span>
-    <span  id="me_login_btn"></span>
-     <span  id="me_logout_btn"></span>
-  </div>
-</div>
     <div id="header">
   <!-- ---- 2022>>--【head】 -- 标签开始 ---- -->
 
@@ -123,7 +101,7 @@
 </div>
 <div class="g-top headerSj">
   <div class="container">
-    <a class="m-logo" href="https://qbxd.19870310.xyz/2023">
+    <a class="m-logo" href="./2023">
       <img src="../static/img/logo.png" alt="" />
     </a>
     <div class="menu-btn">
@@ -281,16 +259,16 @@
   
     </div>
     <div id="body">
-      <div class="lb-banner">
-        <div class="m-search" style="margin-top: 40px; right: 70px;"><form id="searchform" name="searchform" action="../search/searchResultGJ.htm" method="get" style="position: relative;"><button type="submit" class="search_btn"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button> <input id="q" name="q" placeholder="搜索" type="text" class="search_text inp"> <input type="hidden" value="862" name="t_id"> <input type="hidden" value="" name="site_id" style="width: 0px;"> <input type="hidden" value="18036" name="categoryId"></form></div>
-        <img src="../static/img/lb-banner.png" alt="" />
-      </div>
+      <div class="lb-banner" style="">
+        <div class="m-search" style="margin-top: 40px; right: 5%;"><form id="searchform" name="searchform" action="../search/searchResultGJ.htm" method="get" style="position: relative;"><button type="submit" class="search_btn"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button> <input id="q" name="q" placeholder="搜索" type="text" class="search_text inp"> <input type="hidden" value="862" name="t_id"> <input type="hidden" value="" name="site_id" style="width: 0px;"> <input type="hidden" value="18036" name="categoryId"></form></div>
+                 <img src="../images/xsfz-banner.jpg" alt="" />
+              </div>
       <div class="lb-top">
         <div class="container">
-          <div class="name"><span>
-校内通知 
+          <div class="name">
+<span>团、队动态</span> 
 
-</span></div>
+</div>
         </div>
       </div>
 
@@ -299,128 +277,337 @@
           <div class="row">
             <div class="g-sd col-sm-3">
               <div id="column-nav" class="column-nav">
+                <div style="font-size: 2.5rem;color: white;padding-top: 34px;margin-bottom: -28px !important;">
                 
-                 <div style="font-size: 2.5rem;color: white;padding-top: 34px;margin-bottom:0px !important;">
-                
-<span><a href="iList_321.htm" style="color:white">校内通知</a></span> 
+<span>学生发展</span> 
 
                 </div>
-                <ul class="column-list" style="margin-top:1.6rem;">
-                                  <li>
-            <a  href="iList_285.htm">研训类</a>
-          </li> <li>
-            <a  href="iList_322.htm">人事类</a>
-          </li> <li>
-            <a  href="iList_282.htm">公示类</a>
-          </li> <li>
-            <a  href="iList_284.htm">综合类</a>
+                
+                <ul class="column-list djgh_list" style="display:none">
+           <li>
+            <a href="iList_6.htm">组织概况</a>
+          </li>           <li>
+            <a href="iList_7.htm">党建动态</a>
+          </li>           <li>
+            <a  href="iList_8.htm">公示公开</a>
+          </li>           <li>
+            <a class="ac"  href="iList_9.htm">工会之家</a>
+          </li>                  </ul>
+                  <ul class="column-list">
+
+                                        <li>
+            <a  href="iList_15.htm">学生活动</a>
+          </li>           <li>
+            <a class="ac"  href="iList_10.htm">团、队动态</a>
+          </li>           <li>
+            <a  href="iList_11.htm">心理健康</a>
+          </li>           <li>
+            <a  href="iList_24.htm">家校共建</a>
+          </li>           <li>
+            <a  href="iList_25.htm">学生荣誉</a>
           </li>                  </ul>
               </div>
             </div>
             <div class="g-mn col-sm-9">
+              
+              <style>
+                .year{height:auto;min-height:40px;display:none;}
+            .year a{color:#337ab7;font-size:20px;padding:10px 20px;}
+               .year a:hover{color: #2098d1;text-shadow: 1px 1px 1px #000;}
+             .year a.ac{color: #2098d1;text-shadow: 1px 1px 1px #000;}
+            </style>
+            
+            <div class="year">
+                                   
+            <a  href="iList_15.htm">学生活动</a>
+                     
+            <a class="ac"  href="iList_10.htm">团、队动态</a>
+                     
+            <a  href="iList_11.htm">心理健康</a>
+                     
+            <a  href="iList_24.htm">家校共建</a>
+                     
+            <a  href="iList_25.htm">学生荣誉</a>
+                        
+            </div>
+
+              
               <div class="list-1">
-                                 <li>
-                  <span class="time"> 2024-12-03</span>
-                  <a href="../2023/jntz/gql/303917.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【公示类】</span>
+                          <div class="wz" style="width:100%;background:white;padding:5%;font-family: PingFang-SC-Regular;min-height: 34rem;
+    line-height: 2;font-size: 1.6rem;font-weight: normal;font-stretch: normal;letter-spacing: 0rem;color: #6e6e6e;margin-bottom:40px;display:none;border-radius:6px;"><p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230647025.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<strong>主持人：高一(3)班&nbsp;&nbsp;蒋欣芮&nbsp; &nbsp; 高二(3)班&nbsp;&nbsp;陈雪健</strong> 
+</p>
+<p style="text-align:center;">
+	<br />
+</p>
+<p style="text-align:center;">
+	<strong>宣读第七周流动红旗、文明班级名单</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230648025.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<strong><br />
+</strong> 
+</p>
+<p style="text-align:center;">
+	<strong>第八周值周班、荣誉升旗手介绍</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230648051.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230649038.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<br />
+</p>
+<p style="text-align:center;">
+	<strong>观看运动会视频回顾</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230651033.jpg" width="650" height="361" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<br />
+</p>
+<p style="text-align:center;">
+	<strong>颁奖环节</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230652015.png" width="650" height="433" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230652030.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230652043.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230652053.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230653004.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230653014.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230653024.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230653034.png" alt="" /> 
+</p>
+<p style="text-align:center;">
+	<br />
+</p>
+<p style="text-align:center;">
+	<strong>运动会总结</strong> 
+</p>
+<p style="text-align:center;">
+	<strong>团委书记、大队辅导员&nbsp;&nbsp;朱青松</strong> 
+</p>
+<p style="text-align:center;">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230655002.png" alt="" /> 
+</p>
+<p>
+	尊敬的各位老师，亲爱的同学们：
+</p>
+<p style="text-indent:2em;">
+	大家上午好！
+</p>
+<p style="text-indent:2em;">
+	秋意盎然，赛场逐梦。在全体师生共同努力下，七宝鑫都第八届秋季田径运动会圆满完成全部赛程，落下帷幕。在此，我代表学校运动会组委会，向所有奋勇拼搏的运动员、默默奉献的老师和学生志愿者，以及为运动会作保障的工勤人员，表示最诚挚的感谢！向取得优异成绩、成功打破校纪录的运动健儿们，表示热烈祝贺！
+</p>
+<p style="text-indent:2em;">
+	本届赛会，我们见证了多项历史性突破，一共诞生8项新的校纪录。高中部，高三(3)班斩获女子4×100米接力新纪录；高二(1)班黄星焱同学立定跳远跳出3.07米。初中部，六年级杨睿琪同学在女子400米跑出1′19″73；九年级姚俊熙在男子400米比赛中跑出58″24、沈欣洁在女子400米项目中跑出1′16″91；尚雨涵在女子800米项目中跑出2′54″96；肖语晨在女子立定跳远比赛中跳出2.41米；徐昕珆在女子实心球比赛中投出10.11米的好成绩。一项项校纪录，既是鑫都少年挑战自我、超越极限最好的证明，也是载入校史，令后人仰望的标尺，更是七宝鑫都践行更高、更快、更强的奥林匹克拼搏精神的实际行动。
+</p>
+<p style="text-indent:2em;">
+	本届开幕式同样精彩纷呈，成为本次运动会一道靓丽的风景线。六年级十二个班级、高一四个班级创意十足、各展风采，精心设计的入场式表演构思巧妙、亮点纷呈，充分展现出各班独有的文化气质与少年朝气。初高中仪仗队步履铿锵、精神抖擞，整齐划一的步伐彰显着鑫都学子昂扬向上的精神面貌；啦啦操活力四射，排球、军体拳气势如虹，健美操灵动优美，武术操刚劲有力，广播操整齐规范，各类特色节目轮番登场，将现场氛围一次次推向高潮。光鲜亮眼的舞台背后，是同学们挤出课余、午休甚至周末的碎片时间反复打磨动作、磨合队形，一遍遍地排练调整，不惧疲惫、坚持不懈，才换来开幕式上这一幕幕震撼人心的精彩呈现。每一个利落的动作、每一次整齐的变换，都凝聚着班级集体的智慧与汗水，充分诠释了团结协作、精益求精的宝贵品质。
+</p>
+<p style="text-indent:2em;">
+	一场成功的运动会，不只有站上跑道、奋力冲刺的运动员，更有一群幕后英雄。穿梭在赛场各处的初高中学生志愿者，认真值守、维持秩序；裁判员老师们坚守岗位，公正严谨，保障每一场比赛有序开展。观赛区此起彼伏的呐喊助威，是同学们最真挚的鼓励与陪伴。还有扛着相机、定格赛场瞬间的摄影志愿者，特别感谢八(5)班张东棠同学，牺牲外出社会实践的机会，为我们带来震撼的无人机航拍镜头，留存下本届运动会珍贵的全景画面。
+</p>
+<p style="text-indent:2em;">
+	每年运动会的高潮都是老师们走上赛场的时候，教职工50米迎面接力赛，展现了鑫都教师昂扬活力；教职工跳远、实心球的成绩也让学生们看到了自己老师的别样风采。
+</p>
+<p style="text-indent:2em;">
+	赛场有终点，奋斗无止境。运动会考验的不只是速度、力量，更是意志、团结与坚持。希望同学们把赛场上不畏困难、奋勇争先、团结协作的体育精神，带到课堂学习、日常生活当中。胜不骄、败不馁，遇到难题敢于迎难而上；懂得欣赏对手，学会团结同伴。坚持体育锻炼，拥有强健体魄，向阳成长。
+</p>
+<p style="text-indent:2em;">
+	老师们、同学们，绿茵赛场的呐喊声终将散去，但奋斗的精神永远留在七宝鑫都的校园。祝愿全体师生保持热爱，奔赴下一程山海！
+</p>
+<p style="text-indent:2em;">
+	谢谢大家！
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230700051.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230701002.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230701013.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230701025.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230701036.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230701048.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230702000.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230702011.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230702046.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230702056.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230703009.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230703020.png" alt="" /> 
+</p>
+<p class="MsoNormal">
+	<img src="./wcm.files/upload/CMSxdsyzx/202610/202610230703029.png" alt="" /> 
+</p></div>
+                                
+                
+                              
+                <li>
+                  <span class="time"> 2024-03-25</span>
+                  <a href="../2023/hsfz/qddt/293930.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024年朱靖文同志述职报告
+                      >今天，我们一起谈爱国-2023学年第二学期第六周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-12-03</span>
-                  <a href="../2023/jntz/gql/303916.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【公示类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-03-18</span>
+                  <a href="../2023/hsfz/qddt/293702.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024年陆香香同志述职报告
+                      >筑牢校园安全防线-2023学年第二学期第五周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-12-02</span>
-                  <a href="../2023/jntz/xxl/303884.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【研训类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-03-11</span>
+                  <a href="../2023/hsfz/qddt/293577.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024学年 第一学期 第14周 区教研活动通知
+                      >学习雷锋精神 传承榜样力量-2023学年第二学期第四周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-25</span>
-                  <a href="../2023/jntz/xxl/303698.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【研训类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-03-04</span>
+                  <a href="../2023/hsfz/qddt/293110.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024学年 第一学期 第13周 区教研活动通知
+                      >“悦”动健康，“鑫”向未来-2023学年第二学期第三周升旗仪式暨第四届体育文化节开幕式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-21</span>
-                  <a href="../2023/jntz/gql/303909.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【公示类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-02-26</span>
+                  <a href="../2023/hsfz/qddt/292882.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >七宝鑫都建校五周年优秀教育工作者评选活动推荐人选公示
+                      >同心共育 守望成长-2023学年第二学期第二周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-18</span>
-                  <a href="../2023/jntz/xxl/303466_2.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【研训类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-02-19</span>
+                  <a href="../2023/hsfz/qddt/292870.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024学年 第一学期 第12周 区教研活动通知
+                      >乘龙之势 勇毅前行-2023学年第二学期开学典礼暨第一周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-13</span>
-                  <a href="../2023/jntz/gql/303467.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【公示类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2024-02-06</span>
+                  <a href="https://mp.weixin.qq.com/s/xVnnoXejCxaRR3CzvMvkjQ" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >关于2023-2024年度闵行区教育系统三八红旗手选树活动
+                      >品文化、进社区……七宝鑫都少先队员这样过寒假！
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-11</span>
-                  <a href="../2023/jntz/xxl/303186.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【研训类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2023-12-25</span>
+                  <a href="../2023/hsfz/qddt/291924.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024学年 第一学期 第11周 区教研活动通知
+                      >“期末考试动员”2023学年第一学期第十八周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-11-04</span>
-                  <a href="../2023/jntz/xxl/303007.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【研训类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2023-12-18</span>
+                  <a href="../2023/hsfz/qddt/291662.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >2024学年 第一学期 第10周 区教研活动通知
+                      >“蓬勃活力 自信绽放”2023学年第一学期第十七周升旗仪式
                     </span></a
                   >
                 </li>
-                                 <li>
-                  <span class="time"> 2024-10-29</span>
-                  <a href="../2023/jntz/gql/302830.htm" target="_blank" class="text-overflow"
-                    ><span class="sort">【公示类】</span>
+              
+                             
+                <li>
+                  <span class="time"> 2023-12-11</span>
+                  <a href="./2023/hsfz/qddt/291558_2.htm" target="_blank" class="text-overflow"
+                    ><span class="sort" style="display:none">【团、队动态】</span>
                     <span class="title"
-                      >中共上海市七宝中学附属鑫都实验中学总支部委员会委员、书记、副书记候选人预备人选公示名单
+                      >“Set Out to Ring Your Voice 启航年少，鸣响青春”2023学年第一学期第十六周升旗仪式暨第四届英语文化节...
                     </span></a
                   >
                 </li>
-                               </div>
-                             <div class="fy">
-                <span>共有157条</span>
-                <span>当前第4/16页</span>
+              
+                              </div>
+                            
+              <div class="fy">
+                <span>共有121条</span>
+                <span>当前第9/13页</span>
                 <!-- <div class=""></div> -->
                 <br class="hidden-lg hidden-md">
 
-               <span><a href="iList_362.htm">首页</a></span>
-<span><a href="iList_396.htm">上一页</a></span>
-<span><a href="iList_431.htm">下一页</a></span>
-<span><a href="iList_364.htm">末页</a></span>
+               <span><a href="./info/iList_64.htm">首页</a></span>
+<span><a href="./info/iList_461.htm">上一页</a></span>
+<span><a href="./info/iList_349.htm">下一页</a></span>
+<span><a href="./info/iList_67.htm">末页</a></span>
               </div>
+           
             </div>
           </div>
         </div>
@@ -467,7 +654,27 @@
 <!-- ---- 2022>>--【tail】 -- 标签结束 ---- -->
 
     </div>
+    <script>
+    $(function(){
+     var ss = $(".name span").text();
+      if(ss == "组织概况" || ss == "学校简介")
+        {
+          $(".wz").show();
+        $(".fy,#lby .g-mn .list-1 li").hide();
+        }
+      else if(ss == "学生活动"|| ss == "家校共建" || ss == "课程教学"){
+          $(".sort").show();     
+        }
+       else if(ss == "工会之家" || ss == "组织建设" || ss == "民主管理" || ss == "宣教文体" ){
+          $(".year").show();   
+        $(".column-list").hide();
+         $(".djgh_list").show();
+        }
+
+    })
+    </script>
   </body>
 </html>
-  
+
+
 
